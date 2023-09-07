@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/task3.css" rel="stylesheet" type="text/css">
+    <title>Task 3</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>Flights - Search List</h1>
+        </div>
+
+        <div>
+            <a>Home/Flights Search List</a>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="topMenu">
+            <div>
+                <input type="radio" name="radioBtn" id="oneWay">
+                <label>One Way</label>
+                <input type="radio" name="radioBtn" id="roundTrip">
+                <label>Round Trip</label>
+            </div>
+
+            <div class="form">
+                <input type="text" name="from" id="from" placeholder="From">
+                <input type="text" name="to" id="to" placeholder="To">
+                <input type="date" name="departDate" id="departDate">
+                <input type="date" name="returnDate" id="returnDate">
+                <select name="class" id="class">
+                    <option value="economy">Economy Class</option>
+                    <option value="business">Business Class</option>
+                </select>
+                <button type="submit">Search</button>
+            </div>
+
+        </div>
+        <div class="menus">
+            <div class="leftMenu">
+                <h2>Filter</h2>
+
+                <div class="stops">
+                    <p>№ of Stops</p>
+                    <div>
+                        <input type="radio" name="numberOfStops" id="nonStop">
+                        <label>Non Stop</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="numberOfStops" id="oneStop">
+                        <label>1 Stop</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="numberOfStops" id="twoStops">
+                        <label>2+ Stops</label>
+                    </div>
+                </div>
+
+                <div class="price">
+                    <p>Price</p>
+                    <div class="priceList">
+                        <div class="list">
+                            <label>Min:</label>
+                            <div>
+                                <input type="number" name="cost" id="minCost">
+                                <label>$</label>
+                                <label>-</label>
+                            </div>
+                        </div>
+                        <div class="list">
+                            <label>Max:</label>
+                            <div>
+                                <input type="number" name="cost" id="maxCost">
+                                <label>$</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="airlines">
+                    <p>Airlines</p>
+                    <div>
+                        <input type="radio" name="airline" id="asian">
+                        <label>Asian Airlines</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="airline" id="american">
+                        <label>American Airlines</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="airline" id="canada">
+                        <label>Air Canada</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="airline" id="india">
+                        <label>Air India</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="airline" id="india">
+                        <label>Jet India</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="airline" id="spicejet">
+                        <label>Spicejet</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="airline" id="indigo">
+                        <label>IndiGo</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="airline" id="multiple">
+                        <label>Multiple Airlines</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mainMenu">
+                <div>
+                    <h2>Dehli to Sydney</h2>
+                </div>
+                <table>
+                    <tr class="firstRow">
+                        <th>Airlines</th>
+                        <th>Departure</th>
+                        <th>Duration</th>
+                        <th>Arrival</th>
+                        <th>Price</th>
+                        <th></th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p>IndiGo</p>
+                            <label>6E-2489</label>
+                        </td>
+                        <td>
+                            <p>23:30</p>
+                            <label>Dehli</label>
+                        </td>
+                        <td>
+                            <p>18h 55m</p>
+                            <label>Non Stop</label>
+                        </td>
+                        <td>
+                            <p>18:15</p>
+                            <label>Sydney</label>
+                        </td>
+                        <td>
+                            <p>$980</p>
+                        </td>
+                        <td>
+                            <div class="tableBtn">
+                                <button>Book</button>
+                                <a href="#">Flight Details</a>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p>IndiGo</p>
+                            <label>6E-2489</label>
+                        </td>
+                        <td>
+                            <p>23:30</p>
+                            <label>Dehli</label>
+                        </td>
+                        <td>
+                            <p>18h 55m</p>
+                            <label>Non Stop</label>
+                        </td>
+                        <td>
+                            <p>18:15</p>
+                            <label>Sydney</label>
+                        </td>
+                        <td>
+                            <p>$980</p>
+                        </td>
+                        <td>
+                            <div class="tableBtn">
+                                <button>Book</button>
+                                <a href="#">Flight Details</a>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p>IndiGo</p>
+                            <label>6E-2489</label>
+                        </td>
+                        <td>
+                            <p>23:30</p>
+                            <label>Dehli</label>
+                        </td>
+                        <td>
+                            <p>18h 55m</p>
+                            <label>Non Stop</label>
+                        </td>
+                        <td>
+                            <p>18:15</p>
+                            <label>Sydney</label>
+                        </td>
+                        <td>
+                            <p>$980</p>
+                        </td>
+                        <td>
+                            <div class="tableBtn">
+                                <button>Book</button>
+                                <a href="#">Flight Details</a>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p>IndiGo</p>
+                            <label>6E-2489</label>
+                        </td>
+                        <td>
+                            <p>23:30</p>
+                            <label>Dehli</label>
+                        </td>
+                        <td>
+                            <p>18h 55m</p>
+                            <label>Non Stop</label>
+                        </td>
+                        <td>
+                            <p>18:15</p>
+                            <label>Sydney</label>
+                        </td>
+                        <td>
+                            <p>$980</p>
+                        </td>
+                        <td>
+                            <div class="tableBtn">
+                                <button>Book</button>
+                                <a href="#">Flight Details</a>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p>IndiGo</p>
+                            <label>6E-2489</label>
+                        </td>
+                        <td>
+                            <p>23:30</p>
+                            <label>Dehli</label>
+                        </td>
+                        <td>
+                            <p>18h 55m</p>
+                            <label>Non Stop</label>
+                        </td>
+                        <td>
+                            <p>18:15</p>
+                            <label>Sydney</label>
+                        </td>
+                        <td>
+                            <p>$980</p>
+                        </td>
+                        <td>
+                            <div class="tableBtn">
+                                <button>Book</button>
+                                <a href="#">Flight Details</a>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p>IndiGo</p>
+                            <label>6E-2489</label>
+                        </td>
+                        <td>
+                            <p>23:30</p>
+                            <label>Dehli</label>
+                        </td>
+                        <td>
+                            <p>18h 55m</p>
+                            <label>Non Stop</label>
+                        </td>
+                        <td>
+                            <p>18:15</p>
+                            <label>Sydney</label>
+                        </td>
+                        <td>
+                            <p>$980</p>
+                        </td>
+                        <td>
+                            <div class="tableBtn">
+                                <button>Book</button>
+                                <a href="#">Flight Details</a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

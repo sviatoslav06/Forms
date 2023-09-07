@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(226 93 68);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    width: 20vw;
+    margin: 0 auto;
+}
+
+form {
+    background-color: rgb(230 228 229);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+}
+
+input {
+    outline: none;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+button {
+    box-sizing: border-box;
+    border: none;
+    /* border-bottom: 5px inset rgb(13 114 47); */
+    background-color: rgb(51 166 92);
+    box-shadow: 0px 5px 0px 0 rgb(13 114 47),
+        inset 0 0 0 0px #fff;
+    color: white;
+}
+
+button:active {
+    box-shadow: none;
+}
+
+#forgotPassword {
+    color: rgb(226 93 68);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#forgotPassword:hover {
+    color: rgb(186, 75, 55);
+}
+
+.ssulku {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: larger;
+}
+
+.divImage1,
+.divImage2 {
+    width: 50%;
+    justify-content: center;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.divImage1 {
+    background-color: rgb(24 119 242);
+}
+
+.divImage2 {
+    background-color: rgb(3 169 244);
+}
+
+.divImage1 p,
+.divImage2 p {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    height: 40px;
+}
+
+#logInWith {
+    text-align: center;
+    color: #fff;
+    font-size: larger;
+}

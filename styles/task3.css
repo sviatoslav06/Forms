@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin: 0;
+    background-color: rgb(245 245 245);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15 67 114);
+    color: #fff;
+    margin: 0;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.main {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.topMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+}
+
+.form input,
+.form select {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 16%;
+}
+
+.topMenu button {
+    background-color: rgb(15 67 114);
+    color: #fff;
+    border-radius: 5px;
+    width: 16%;
+}
+
+.menus {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.leftMenu {
+    box-sizing: border-box;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.leftMenu p {
+    color: rgb(15 67 114);
+    font-weight: bolder;
+}
+
+.priceList {
+    display: flex;
+    gap: 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.priceList input {
+    width: 20%;
+}
+
+.mainMenu {
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5px;
+}
+
+.mainMenu h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+tr {
+    border: 1px solid lightgray;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+.firstRow {
+    background-color: rgb(245 245 245);
+}
+
+th {
+    color: rgb(15 67 114);
+}
+
+table p {
+    font-size: large;
+    margin: 10px;
+}
+
+table label {
+    color: rgb(152, 152, 152);
+    font-size: 15px;
+}
+
+.tableBtn {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.tableBtn button {
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(15 67 114);
+    color: #fff;
+}
+
+.tableBtn a {
+    font-size: 15px;
+    text-decoration: none;
+}
